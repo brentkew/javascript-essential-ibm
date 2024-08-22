@@ -232,3 +232,114 @@ footer .social-media a {
 .social-media-icons img:hover {
     transform: scale(1.2);
 }
+
+
+
+/* Add to existing CSS */
+header.about-header {
+    position: relative;
+    height: 100vh;
+    background: url('./images/about-us.webp') no-repeat center center/cover;
+}
+
+
+
+/* Contact Us Header Section */
+.header-content.contact-us {
+    left: 0px !important;
+    top: 30% !important;
+}
+.contact-header {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    background: url('./images/contact-us-banner.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.contact-header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+}
+
+.contact-header .header-content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-header .text-section {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.contact-header .form-section {
+    flex: 1;
+    padding-left: 20px;
+    background: #56585508;
+    padding: 20px 40px 16px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-header .text-section h1 {
+    margin: 0 0 20px;
+    font-size: 48px;
+}
+
+.contact-header .text-section p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Contact Form Styles */
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #898989;
+    border-radius: 5px;
+    background: #56585508;
+}
+
+.contact-form .form-group textarea {
+    resize: vertical;
+}
+
+.contact-form .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact-form .btn:hover {
+    background-color: #e14e1c;
+}
