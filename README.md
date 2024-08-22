@@ -17,6 +17,8 @@ The homepage features a search bar that allows users to search for travel destin
 
 ### Search Functionality
 ![Search Functionality](images/preview/Search_Functionality.png)
+![Search Functionality](images/preview/bora.png)
+![Search Functionality](images/preview/taj.png)
 
 ### About Us Page
 ![About Us Page](images/preview/About%20Us%20Page.png)
